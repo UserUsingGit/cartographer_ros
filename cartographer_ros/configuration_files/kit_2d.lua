@@ -78,7 +78,7 @@ POSE_GRAPH.optimize_every_n_nodes = 0
 -- POSE_GRAPH.constraint_builder.min_score = 0.7 -- 0.62
 -- POSE_GRAPH.constraint_builder.global_localization_min_score = 0.66
 
--- -- Added enabling loop closure on Teraki datasets
+-- -- Added enabling loop closure on decompressed datasets
 -- POSE_GRAPH.constraint_builder.fast_correlative_scan_matcher.linear_search_window = 50.
 -- POSE_GRAPH.constraint_builder.fast_correlative_scan_matcher.angular_search_window = math.rad(45.)
 
