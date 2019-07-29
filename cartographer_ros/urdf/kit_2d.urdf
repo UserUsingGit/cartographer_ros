@@ -9,6 +9,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
+  <origin xyz="0.81 0.32 0.8" rpy="0.0 0.0 0.0" />
 -->
 
 <robot name="cartographer_backpack_3d">
@@ -42,9 +43,9 @@
   <link name="base_link" />
 
   <joint name="velo_link_joint" type="fixed">
-    <parent link="base_link" />
+    <parent link="imu_link" />
     <child link="velo_link" />
-    <origin xyz="0.81 0.32 0.8" rpy="0.0 0.0 0.0" />
+    <origin xyz="-0.80 0.31 -0.79" rpy="0.0148239 -0.0010179 -0.0007629" />
   </joint>
 
   <joint name="imu_link_joint" type="fixed">
